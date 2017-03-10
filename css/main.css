@@ -55,20 +55,103 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* TYPE STYLES */
+.p-title {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 7px black;
+  color: rgb(0, 212, 255);
+  font-size: 260px;
+  margin: 0 0 0 0;
+  padding: 150px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 7px black;
+  margin: 0;
+}
+.p-gallery {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  display: block;
+  width: 900px;
+  margin-left: 62px;
+  line-height: 27px;
+}
+.p-display {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  width: 480px;
+  margin-left: 62px;
+  line-height: 27px;
+}
+.navlink {
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 200px;
+  display: flex;
+  width: 650px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 212, 255);
+  text-shadow: 2px 2px 10px black;
+  padding: 0;
+  line-height: 200px;
+}
+h1{
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  margin: 40px 0 0 55px;
+  color: rgb(0, 212, 255);
+  text-shadow: 2px 2px 4px grey;
+}
 
+/* PAGES */
+.title {
+  background: url("img/main.jpeg");
+  display: block;
+  height: 100vh;
+}
+.nav {
+  background: url("img/nav.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.gallery {
+  height: 100vh;
+}
+.display {
+  height: 100vh;
+}
 
+/* IMAGES */
+.display-img {
+  width: 450px;
+  height: auto;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  float: right;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/* LOGO */
+.logo {
+  width: 200px;
+  margin: 20px 0 0 20px;
+  -webkit-filter: drop-shadow( 2px 2px 3px black );
+  color: rgb(0, 212, 255);
+}
 
 /* ==========================================================================
    Media Queries
