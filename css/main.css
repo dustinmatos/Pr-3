@@ -127,12 +127,15 @@ h1{
   background: url("img/nav.jpg");
   background-size: cover;
   height: 100vh;
+  display: none;
 }
 .gallery {
   height: 100vh;
+  display: none;
 }
 .display {
   height: 100vh;
+  display: none;
 }
 
 /* IMAGES */
@@ -144,13 +147,28 @@ h1{
   justify-content: flex-end;
   float: right;
 }
+.scroll-contain {
+  height: 393px;
+  width: 1024px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
 
-/* LOGO */
+/* LOGO & BACK BTN */
 .logo {
   width: 200px;
   margin: 20px 0 0 20px;
   -webkit-filter: drop-shadow( 2px 2px 3px black );
   color: rgb(0, 212, 255);
+}
+.back-btn {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 45px;
+  color: grey;
+  text-decoration: none;
+  float: right;
+  margin-right: 45px;
 }
 
 /* ==========================================================================
