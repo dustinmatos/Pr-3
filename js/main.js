@@ -17,9 +17,9 @@ $(".back-btn").click(function() {
   var historyIsShown = $("#gallery").css("display");
   if (historyIsShown == "block") {
     $("#nav").slideDown('fast');
-    $("#gallery").slideDown('fast');
+    $("#gallery").hide('fast');
   } else {
     $("#nav").slideDown('fast');
-    $("#display-page").slideDown('fast');
+    $("#display-page").hide('fast');
   }
 });
