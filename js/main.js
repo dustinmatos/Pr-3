@@ -1,3 +1,22 @@
+var idleTime = 0;
+$(document).ready(function () {
+    //Increment the idle time counter every minute.
+    var idleInterval = setInterval(timerIncrement, 100); // 1 minute
+
+    //Zero the idle timer on mouse movement.
+    $(this).on({ “.touchend” : function (){
+        idleTime = 0;
+}
+    });
+});
+
+function timerIncrement() {
+    idleTime = idleTime + 1;
+    if (idleTime > 19) { // 20 minutes
+        window.location.reload();
+    }
+}
+
 $("#title").click(function() {
   $("#nav").slideDown('fast');
   $("#title").slideUp();
