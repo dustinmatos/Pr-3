@@ -172,6 +172,13 @@ h1{
   margin-right: 45px;
 }
 
+/* FLEX */
+.nav-flex {
+  display: flex;
+  width: 1024px;
+  align-content: center;
+  justify-content: center;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
