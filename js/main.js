@@ -1,4 +1,3 @@
-
 $("#title").click(function() {
   $("#nav").slideDown('fast');
   $("#title").slideUp();
